@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bor{
+    border: 2px solid yellow;
+}
+
+.div1{
+   height: 100vh;
+}
+.watch{
+    background-color: #2D1338;
+    width: 770px;
+    height: 270px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px #37243fac;
+}
+@media(min-width:425px){
+    .watch{
+        display: flex;
+    }
+}
+#hr , #min , #sec , #mili{
+    color: #ffff;
+    font-size: 70px;
+    font-weight: 650;
+}
+@media (max-width : 775px) {
+    .watch{
+        width: 100%;
+    }
+    #hr , #min , #sec , #mili{
+        font-size: 60px;
+    }
+    .div3{
+        width: 100%;
+    }
+
+}
+@media (max-width:576px){
+    #hr , #min , #sec , #mili{
+        font-size: 70px;
+    }
+}
+@media (max-width:460px){
+    #hr , #min , #sec , #mili{
+        font-size: 65px;
+    }
+    .btn1 , .btn2 , .btn3{
+        width: 90px;
+        height: 40px;
+    }
+}
+@media (max-width:450px){
+    #hr , #min , #sec , #mili{
+        font-size: 65px;
+    }
+    .btn1 , .btn2 , .btn3{
+        color: #ffff;
+        width: 90px;
+        height: 40px;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        font-weight: 500;
+        font-size: 20px;
+        background: linear-gradient(to right, #564161 50%, #E67CD9 50%);
+        background-size: 200% 100%;
+        background-position: right;
+        transition: 0.5s;
+    }
+
+}
+@media (max-width:430px){
+    #hr , #min , #sec , #mili{
+        font-size: 55px;
+    }
+}
+@media(max-width:367px){
+    #hr , #min , #sec , #mili{
+        font-size: 47px;
+    }
+    .btn1 , .btn2 , .btn3{
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+#div1{
+    color: #ffff;
+}
+@media(min-width:450px){
+.btn1 , .btn2 , .btn3{
+    color: #ffff;
+    width: 105px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 20px;
+    background: linear-gradient(to right, #564161 50%, #E67CD9 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: 0.5s;
+}
+}
+.btn1:hover,
+.btn2:hover,
+.btn3:hover{
+    background-position: left;
+}
+.btn1:focus,
+.btn2:focus,
+.btn3:focus{
+    background-color: #564161;
+}
+#div1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.para1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.para2{
+    font-size: 20px;
+    font-weight: bold;
+}
+@media(max-width:380px){
+    .para1{
+        font-size: 40px;
+    }
+}

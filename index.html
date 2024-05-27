@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="icon" href="img/tab_icon.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgba(128, 128, 128, 0.304);">
+    <div class="div1 d-flex justify-content-center mt-sm-5">
+        <div class="div3 mt-4">
+            <p class="text-center para1">Stop Watch ⌚</p>
+            <div class="watch justify-content-center">
+                <div class="div2 p-2">
+                    <div class="d-flex justify-content-center">
+                        <div id="hr" class="mx-sm-3">00 :</div>
+                        <div id="min" class="mx-sm-3">00 :</div>
+                        <div id="sec" class="mx-sm-3">00 :</div>
+                        <div id="mili" class="mx-sm-3">00</div>
+                    </div>
+                    <div class="btn_div d-flex gap-4 gap-sm-5 justify-content-center mt-4">
+                        <button onclick="start()" ondblclick="double()" class="btn1">Start</button>
+                        <button onclick="pause()" class="btn2">Pause</button>
+                        <button onclick="reset()" class="btn3">Reset</button>
+                    </div>
+                    <div id="div1" class="text-center my-4"></div>
+                </div>
+            </div>
+            <p class="text-center para2 mt-4">©Muhammad Huzaifa | All Rights Reserved 💖</p>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
